@@ -243,7 +243,7 @@ class MightzNookii:
             Helpers=self.HELPERS)
 
         # Register commands
-        PACKS = Packs(chat, self.CMDS, self.HELPERS)
+        PACKS = Packs(chat, self.CMDS, self.STREAMER, self.HELPERS)
         
         # Chat commands
         PACKS.register_required()
